@@ -16,6 +16,9 @@ import { CalculadoraComponent } from './components/calculadora/calculadora.compo
     AppRoutingModule,
     CalculadoraModule
   ],
+  exports: [
+    CalculadoraComponent
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
